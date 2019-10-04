@@ -12,45 +12,32 @@
 - see you around
 - see you later
 
-## intent:affirm
+## intent:see_doc
 - yes
-- indeed
+- yea
+- sure
+- why not
 - of course
-- that sounds good
-- correct
+- maybe
+- i don't know
 
-## intent:deny
+## intent:no_doc
 - no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+- i don't think so
+- not today
+- not now
+- no thanks
+- later
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:wip
+- yes
+- yea
+- sure
+- why not
+- of course
+- maybe
+- no
+- not today
+- not now
+- no thanks
+- later

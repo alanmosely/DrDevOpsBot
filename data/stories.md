@@ -1,31 +1,19 @@
-## happy path
+## see the doc
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
+* see_doc
+  - utter_see_doc
+* wip
+  - utter_wip
 
-## sad path 1
+## don't see the doc
 * greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+* no_doc
+  - utter_no_doc
+* wip
+  - utter_wip
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
-
-## say goodbye
+## goodbye
 * goodbye
   - utter_goodbye
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot

@@ -1,36 +1,35 @@
 intents:
   - greet
+  - see_doc
+  - no_doc
+  - wip
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+
 
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
+- utter_see_doc
+- utter_no_doc
+- utter_wip
 - utter_goodbye
-- utter_iamabot
+- utter_default
+
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hi, welcome to the DevOps Open Clinic, are you here to see the Doctor?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_see_doc:
+  - text: "Great, the Doctor is pretty busy right now but maybe I can assist, do you need some DevOps help?"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_no_doc:
+  - text: "Is there something I can help you with?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_wip:
+  - text: "Sorry, I have some urgent business, I have to go, let's talk later"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Thanks for stopping by, may the DevOps be with you"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_default:
+  - text: "Sorry I couldn't help you, please don't tell the Doctor"
