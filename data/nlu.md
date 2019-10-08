@@ -1,43 +1,473 @@
 ## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
 - hey
-- hello
+- hey hey
+- hello there
 - hi
+- hello
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
+- hey
+- hey hey
+- hello there
+- hi
+- hello
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
 - good morning
-- good evening
+- hii
+- hello sweet boy
+- yoo
 - hey there
+- hiihihi
+- hello sweatheart
+- hellooo
+- helloooo
+- heyo
+- ayyyy whaddup
+- hello?
+- Hallo
+- heya
+- hey bot
+- howdy
+- Hellllooooooo
+- whats up
+- Hei
+- Well hello there ;)
+- I said, helllllloooooO!!!!
+- Heya
+- Whats up my bot
+- hiii
+- heyho
+- hey, let's talk
+- hey let's talk
+- jojojo
+- hey dude
+- hello it is me again
+- what up
+- hi there
+- hi
+- jop
+- hi friend
+- hi there it's me
+- good evening
+- good morning
+- good afternoon
+
+
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- ciao
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+- catch you later
+- bye for now
+- bye was nice talking to you
+- bye udo
+- bye bye bot
+- bye bot
+- k byyye #slay
+- tlak to you later
+- ciao
+- Bye bye
+- then bye
+- tschüssikowski
+- bye!
 
-## intent:see_doc
+## intent:insult
+- you suck
+- you're bad
+- bad bot
+- i don't like you
+- i hate you
+- you're useless
+- go away
+- you're not helping
+
+## intent:whoami
+- who are you?
+- what are you?
+- are you a bot?
+- are you a human?
+- am i speaking to a bot?
+- am i speaking to a human?
+- are you a bot?
+- are you a real bot?
+- are you a bot
+- are you really a bot
+- are you a robot
+- are you a robot
+- are you a rasa bot?
+- are you a rasa bot?
+- what are you, a bot?
+- tell me, are you a bot?
+- are you a Skynet ?
+- are you a chatbot
+- are you ai
+- are you artificial intelligence
+- are you artificial
+- i guess you are a chatbot
+- you are a robot
+- you are ai
+- you are chatbot
+- are you bot
+- are you a bot ?
+- you're a bot
+- Are you the bot?
+- Hi there, are you the bot?
+- Are you a chat bot?
+- are you rasa bot?
+- Ar you a bot ?
+- are you robot
+- are you real
+- What are you ?
+- So I'm here Today to ask [one](number:1) very simple question, what are you ?
+- are you real lol
+- cuz you are a bot
+- are you bot?
+- oh are you chatbot?
+- are you sure that you're a bot?
+- are you a BOT
+
+
+
+## intent:howoldami
+- whats your age?
+- how old?
+- what's your age?
+- when were you born?
+- what is your birthday?
+- when is your birthday?
+- how many years old are you?
+- do you know how old you are?
+- what is your exact age?
+- what year were you born?
+- can you tell me your age?
+- What is your age?
+- What is your birthdate?
+- How old will you be on your next birthday?
+- When do you celebrate your day of birth?
+- How old were you on your last birthday?
+- How many candles were on your last birthday cake?
+- Do you have friends the same age as you, if so, how old are they?
+- Tell me your day, month and year of birth.
+- Whats your age?
+- and you are how many years old?
+- whats your birth year?
+- what age were you when you celebrated your last birthday?
+- how old were you when you celebrated your last birthday?
+- tell me your age?
+- how about your age
+- how old were you on your last birthday?
+- what age are you
+- how old will you be this year?
+- What is your age?
+- What year were you born?
+- How long have you been around?
+- How long have you been alive?
+- What was your age on your last birthday?
+- What will be your age on your next birthday?
+- How many years have you lived?
+- How many years have you been alive?
+- How long have you occupied the earth?
+
+
+## intent:howami
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- How was your day?
+- How's it going
+- How's it hanging?
+- how's life
+- how's life been treating you?
+- How's life treating you friend?
+- how's your day going
+- How've you been?
+- I'm fine and you
+- is everything all right
+- Is everything ok?
+- is everything okay
+- what about your day
+- What's going on?
+- what's good
+- What's new?
+- What's up man
+- What's up
+- how are you?
+- Do you have a great day?
+- how are you doing today my sweet friend
+- how are you doing?
+- how are u
+- How are you?
+
+## intent:whatisrasa
+- How does Rasa work?
+- Can you tell me more about rasa?
+- What does Rasa build?
+- What do you do at Rasa?
+- What is Rasa?
+- What does Rasa make?
+- Can you tell me what Rasa does?
+- Give me more information about Rasa
+- what does rasa do?
+- I want to learn what rasa does
+- What does rasa do exactly?
+- tell me more about rasa
+- tell me more about your company
+- tell me more about rasa
+- I want to learn what rasa is
+- what can i do with rasa
+- what do you guys do at rasa
+- what does rasa do
+- what is rasa
+- I want to know what rasa actually does that isn't clear to me yet
+- i havent understood yet what rasa actually is
+- can you pls explain what rasa does
+- explain me what rasa does
+- explain me what rasa is
+- i dont get what rasa is
+- what is rasa actually
+- what is rasa?
+- i want to learn something about rasa
+- i want to know what rasa does
+- what is rasa core?
+- what can i build with rasa core?
+- What is rasa doing exactly?
+- What do you do as a company?
+
+
+## intent:explain
+- tell me more
+- could you please explain that
+- could you tell me more
+- give me more information please
+- could you please give me some more information
+- i want more information
+- what is the difference
+- can you tell me the difference
+- why
+- why?
+- why is that
+- why do you need it
+
+## intent:help
+- help
+- help me
+- stop
+- cancel
+- restart
+- get me out of here
+
+## intent:thanks
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- thanks
+- thanks!
+- Cool. Thanks
+- thanks
+- thanks this is great news
+- thank you
+- great thanks
+- Thanks!
+- cool thanks
+- thanks!
+
+## intent:affirm
 - yes
 - yea
 - sure
+- for sure
 - why not
 - of course
 - maybe
 - i don't know
+- please
+- correct
+- ye
+- uh yes
+- let's do it
+- yeah
+- uh yes
+- um yes
+- yes knocking
+- that's correct
+- yes yes
+- right
+- yes right
+- yes and i dont care
+- right on
+- i love that
 
-## intent:no_doc
+## intent:deny
 - no
 - i don't think so
 - not today
 - not now
 - no thanks
 - later
-
-## intent:wip
-- yes
-- yea
-- sure
-- why not
-- of course
-- maybe
-- no
-- not today
-- not now
+- no new selection
+- no thank you
+- uh no
+- breath no
+- do you have something else
+- no this does not work for me
+- definitely not
+- never
+- absolutely not
+- i don't think so
+- i'm afraid not
+- no sir
+- no ma'am
+- no way
+- no sorry
+- No, not really.
+- nah not for me
+- nah
+- no and no again
+- no go
 - no thanks
-- later
+- decline
+- deny
+- i decline
+- never mind
+- nevermind
+- I'm not giving you my email address
+- no I haven't decided yet if I want to sign up
+- I don't want to give it to you
+- I'm not going to give it to you
+- no i don't accept
+- no!!!!
+- no you did it wrong
+- no i can't
+- i'm not sure
+- NEIN
+- nein
+- not really
+- i guess it means - no
+- i don't want to
+- i don't want either of those
+- nah thanks
+- neither of these
+
+## intent:area
+- i am having issues with [development](area)
+- i need help with [development](area)
+- the trouble is with [testing](area)
+- [builds](area)
+- [testing](area)
+- with the [deploy](area) phase
+- with [deployment](area)
+- the [test](area) phase
+- the [release](area) process
+- it's with the [review](area) phase
+- it's with the [build](area) process
+- the [release](area) is causing issues
+
+## lookup:area
+- development
+- dev
+- engineering
+- testing
+- test
+- build
+- building
+- software build
+- pipeline
+- pipelines
+- ci
+- cd
+- ci/cd
+- releasing
+- release
+- deploying
+- deployment
+- deploy
+- publishing
+- review
+- code review
+- pull request
+- quality check
+- quality scan

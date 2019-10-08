@@ -1,35 +1,92 @@
 intents:
-  - greet
-  - see_doc
-  - no_doc
-  - wip
-  - goodbye
+  - greet: {triggers: utter_greet}
+  - goodbye: {triggers: utter_goodbye}
+  - insult: {triggers: utter_insult}
+  - whoami: {triggers: utter_whoami}
+  - howoldami: {triggers: utter_howoldami}
+  - howami: {triggers: utter_howami}
+  - whatisrasa: {triggers: utter_whatisrasa}
+  - explain: {triggers: utter_explain}
+  - help: {triggers: utter_help}
+  - area: {triggers:  utter_doctor}
+  - thanks: {triggers: utter_thanks}
+  - affirm
+  - deny
 
+entities:
+  - area
+
+slots:
+  area:
+    type: unfeaturized
 
 actions:
 - utter_greet
-- utter_see_doc
-- utter_no_doc
-- utter_wip
 - utter_goodbye
+- utter_insult
+- utter_whoami
+- utter_howoldami
+- utter_howami
+- utter_whatisrasa
+- utter_explain
+- utter_help
+- utter_goodday
+- utter_great
+- utter_shame
+- utter_dochelp
+- utter_area
+- utter_doctor
+- utter_thanks
 - utter_default
-
 
 templates:
   utter_greet:
-  - text: "Hi, welcome to the DevOps Open Clinic, are you here to see the Doctor?"
-
-  utter_see_doc:
-  - text: "Great, the Doctor is pretty busy right now but maybe I can assist, do you need some DevOps help?"
-
-  utter_no_doc:
-  - text: "Is there something I can help you with?"
-
-  utter_wip:
-  - text: "Sorry, I have some urgent business, I have to go, let's talk later"
+  - text: "Hi, welcome to the DevOps Open Clinic!"
 
   utter_goodbye:
   - text: "Thanks for stopping by, may the DevOps be with you"
 
+  utter_insult:
+  - text: "That's not very nice, please leave the clinic or I will have to call security"
+
+  utter_whoami:
+  - text: "I am Nurse NoOps, a friendly Open Source Rasa chatbot\nI was created in a day by Dr DevOps"
+
+  utter_howoldami:
+  - text: "That's not a question to ask a bot, I'm definitely younger than you though"
+
+  utter_howami:
+  - text: "Thanks for asking, I'm doing great now that I'm talking to you"
+
+  utter_whatisrasa:
+  - text: "Rasa is a super cool Open Source conversational AI framework"
+
+  utter_explain:
+  - text: "If you want to know more you should ask the Doctor"
+
+  utter_help:
+  - text: "Sorry, I've done the best I can, please have a chat with the Doctor"
+
   utter_default:
-  - text: "Sorry I couldn't help you, please don't tell the Doctor"
+  - text: "Interesting stuff, you should train me to deal with this!"
+
+  utter_goodday:
+  - text: "Are you having a good day?"
+
+  utter_great:
+  - text: "Good to hear, what area of you development and delivery process can I help you with today?"
+
+  utter_shame:
+  - text: "That's a shame, maybe you can train me to make you feel better. Do you have issues keeping your pipeline up?"
+ 
+  utter_dochelp:
+  - text: "Speak to the Doctor, maybe he can help you with that"
+
+  utter_area:
+  - text: "Ok, what area of you development and delivery process can I help you with today?"
+
+  utter_doctor:
+  - text: "It's been great talking to you, I think you should talk to the doctor about your {area} issues"
+  
+  utter_thanks:
+  - text: "The pleasure was mine, have a great day!"
